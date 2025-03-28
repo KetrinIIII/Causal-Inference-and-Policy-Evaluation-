@@ -1,0 +1,65 @@
+\documentclass[]{article}
+\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
+\begin{document}
+\begin{tabular}{lccccc}
+\multicolumn{6}{c}{Table 1: Determinants of Plantation Dummy} \\ \hline
+ & (1) & (2) & (3) & (4) & (5) \\
+VARIABLES & Main Model & M2: Without IV & M3: Without Fixed Eff & M4: Alt IV Rainfall & M5: Workers 1988 Dep \\ \hline
+ &  &  &  &  &  \\
+plantation\_dummy & 0.719*** & 0.295 & 0.643 & 3.196 & 0.460*** \\
+ & (0.209) & (0.405) & (0.405) & (3.989) & (0.156) \\
+COLYEARS & 0.003*** & 0.002*** & 0.003* & 0.007 & 0.002*** \\
+ & (0.000) & (0.000) & (0.001) & (0.009) & (0.000) \\
+iron & -0.101** & -0.071 & -0.090 & -0.277 & -0.198*** \\
+ & (0.051) & (0.059) & (0.063) & (0.416) & (0.029) \\
+landlock & -0.077*** & -0.324 & -0.120 & 1.361 & -0.525*** \\
+ & (0.029) & (0.247) & (0.386) & (1.643) & (0.124) \\
+Asia & 0.266 & 0.258 & 0.395* & 0.313** & 0.634*** \\
+ & (0.188) & (0.333) & (0.210) & (0.134) & (0.099) \\
+f\_french & 0.159*** & 0.116* & -0.207 & 0.410*** & 0.096 \\
+ & (0.027) & (0.050) & (0.235) & (0.040) & (0.070) \\
+political\_violence & 0.481* & 0.453 & 0.368* & 0.645 & -0.013 \\
+ & (0.251) & (0.263) & (0.216) & (0.478) & (0.214) \\
+latabs & 5.083*** & 4.540* & 4.394*** & 8.256 & 4.238*** \\
+ & (1.056) & (2.022) & (1.592) & (5.447) & (0.913) \\
+deaths\_per\_pop & -0.013 & 0.028 & 0.014 & -0.253 & 0.057 \\
+ & (0.057) & (0.084) & (0.078) & (0.314) & (0.036) \\
+power transfer during decolonization (0=long-term, planned, coordinated; 1=short & 0.259 & 0.261 & 0.082 & 0.244 & 0.026 \\
+ & (0.237) & (0.301) & (0.181) & (0.534) & (0.185) \\
+immigration of foreign workers during colonial period: 0=no, 1=little, 2=extensi & 0.417* & 0.438 & 0.341** & 0.295 & 0.260 \\
+ & (0.236) & (0.291) & (0.158) & (0.738) & (0.210) \\
+Main colonial = 2, omitted & - &  &  & - &  \\
+ &  &  &  &  &  \\
+Main colonial = 4, FRA & -0.629** &  &  & -1.167*** & 0.074 \\
+ & (0.295) &  &  & (0.262) & (0.275) \\
+Main colonial = 5, ITA & 0.156 & 0.699 &  & 0.114 &  \\
+ & (0.432) & (0.890) &  & (0.610) &  \\
+Main colonial = 6, omitted & - &  &  & - & - \\
+ &  &  &  &  &  \\
+Main colonial = 7, NL & -0.112 & 0.680 &  & -1.604 & -0.376** \\
+ & (0.204) & (0.572) &  & (2.605) & (0.175) \\
+Main colonial = 8, POR & -0.617*** & 0.121 &  & -1.790 & -1.820*** \\
+ & (0.026) & (0.127) &  & (2.146) & (0.034) \\
+Main colonial = 9, omitted & - &  &  & - & - \\
+ &  &  &  &  &  \\
+Main colonial = 11, omitted & - &  &  & - & - \\
+ &  &  &  &  &  \\
+Main colonial = 13, omitted & - &  &  & - & - \\
+ &  &  &  &  &  \\
+Main colonial = 14, omitted & - &  &  & - & - \\
+ &  &  &  &  &  \\
+Main colonial = 11, UK &  & 0.537* &  &  &  \\
+ &  & (0.236) &  &  &  \\
+Main colonial = 2, BEL &  &  &  &  & -0.210 \\
+ &  &  &  &  & (0.179) \\
+Main colonial = 5, omitted &  &  &  &  & - \\
+ &  &  &  &  &  \\
+Constant & 5.686*** & 5.568*** & 5.897*** & 3.238 & -4.159*** \\
+ & (0.235) & (0.550) & (0.494) & (3.563) & (0.195) \\
+ &  &  &  &  &  \\
+Observations & 31 & 31 & 31 & 31 & 30 \\
+ R-squared & 0.653 & 0.694 & 0.646 &  & 0.693 \\ \hline
+\multicolumn{6}{c}{ Robust standard errors in parentheses} \\
+\multicolumn{6}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{document}
